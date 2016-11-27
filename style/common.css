@@ -1,0 +1,245 @@
+body {
+	background: url(../images/wood4.jpg) repeat;
+	color:#333;
+	margin:0px;
+	padding:0px;
+	font: 13px/18px georgia, "times new roman", times, "hiraminpro-w3", "ms mincho", serif;
+}
+#big_container {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background: url(../images/top-deep.png) repeat-x 0px 0px;
+	
+}
+
+#main_container {
+	margin: 0px auto;
+	padding:0px 130px;
+	width: 940px;
+	height:700px;
+	background: url(../images/page_shadow.png) no-repeat top;
+	
+}
+
+#top_bar {
+	margin: 0px;
+	padding:0px 0px 0px 0px;
+	height:120px;
+	width:940px;
+}
+
+#picture {
+	margin: 0px;
+	padding:10px;
+	width:920px;
+	background-image:url(../images/paper_bkg.png);
+}
+
+#content {
+	padding: 20px 20px 20px 20px;
+	width:900px;
+	background-image:url(../images/paper_bkg.png);
+	float:left;
+}
+
+#menu{
+	margin:30px 0px 0px 0px;
+	float:left;
+}
+	
+#logo{
+	margin:10px;
+	width:219px;
+	height:100px;
+	float:left;
+}
+	
+.col4 {
+	width:210px;
+	margin-right:20px;
+	float:left;
+}
+	
+.col4_last {
+	width:210px;
+	float:left;
+}
+	
+.col5_left {
+	width:440px;
+	float:left;
+}
+	
+.col5_right
+{
+	width:440px;
+	float:right;
+	
+	}
+	
+.clearme {clear: both;}
+
+#menu ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	}
+#menu ul li{
+	display: inline-table
+	
+	}
+
+a.home {
+	background:url("../images/menu.png") no-repeat 0px 0px;
+	display:block;
+	width: 86px;
+  	height: 42px;
+}
+	
+a.home:hover{ 
+background: url("../images/menu.png") no-repeat 0px -45px;
+}
+
+a.about {
+	background:url("../images/menu.png") no-repeat -86px 0px;
+	display:block;
+  	width: 108px;
+  	height: 42px;
+	}
+a.about:hover
+{ 
+background: url("../images/menu.png") no-repeat -86px -45px;
+}
+
+a.food {
+	background:url("../images/menu.png") no-repeat -194px 0px;
+	display:block;
+  	width: 78px;
+  	height: 42px;
+	}
+a.food:hover
+{ 
+background: url("../images/menu.png") no-repeat -194px -45px;
+}
+a.drink {
+	background:url("../images/menu.png") no-repeat -270px 0px;
+	display:block;
+  	width: 88px;
+  	height: 42px;
+	}
+a.drink:hover
+{ 
+background: url("../images/menu.png") no-repeat -270px -45px;
+}
+a.gift {
+	background:url("../images/menu.png") no-repeat -360px 0px;
+	display:block;
+  	width: 182px;
+  	height: 42px;
+	}
+a.gift:hover
+{ 
+background: url("../images/menu.png") no-repeat -360px -45px;
+}
+a.contact {
+	background:url("../images/menu.png") no-repeat -540px 0px;
+	display:block;
+  	width: 136px;
+  	height: 42px;
+	}
+a.contact:hover{ 
+background: url("../images/menu.png") no-repeat -540px -45px;}
+
+
+	
+.mid_pod {
+	background: url(../images/mid_w1.png); 
+	padding:10px 10px 10px 10px;
+		} 
+
+.footer{
+	font-size: 14px;
+	margin: 0 auto;
+	color: #DCD6C8;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	width: 933px;
+	text-align: center;
+	display: block;
+	clear: both;
+	background-color: #AF291D;
+	border: thick solid #6C341D;
+}
+
+h2{
+	font-weight:normal;
+	color:#660000;}
+
+.col2_left {
+	width:670px;
+	margin-right:20px;
+	float:left;}
+	
+	.col2_right {
+	width:670px;
+	margin-left:20px;
+	float:right;}
+	
+.top_3pod {
+	background: url(../images/top_w2.png) no-repeat;
+	height:6px;
+	width:670px;
+	display:block;
+	margin:0px;}
+
+.bottom_3pod {
+	background: url(../images/bottom_w2.png) no-repeat;
+	height:6px;
+	margin:0px;
+	width:670px;
+	display:block;}
+
+.mid_3pod {
+	background: url(../images/mid_w2.png) repeat-y; 
+	padding:4px 10px 10px 10px; } 
+
+
+.top_2pod {
+	background: url(../images/top_w3.png) no-repeat;
+	height:6px;
+	width:440px;
+	display:block;
+	margin:0px;}
+	
+.bottom_2pod {
+	background: url(../images/bottom_w3.png) no-repeat;
+	height:6px;
+	margin:0px;
+	width:440px;
+	display:block;
+}
+.mid_2pod {
+		background: url(../images/mid_w3.png) repeat-y;
+	
+		padding:4px 10px 10px 10px;
+		}
+
+#sidemenu ul{
+	list-style:none;
+	margin:0;
+	padding:0;	}
+	
+#sidemenu ul li{
+	background-image:url(../images/seperator.gif);
+	height:32px;
+	font-style:italic;}
+	
+a {
+	color:#894F2A;
+	text-decoration:none;}
+	
+a:hover{
+	color:#600;}
